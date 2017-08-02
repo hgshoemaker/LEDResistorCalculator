@@ -1,6 +1,6 @@
 print("LED RESISTOR CALCULATOR")
 resistor = 0
-sourceV = int(input('Input supply voltage: '))
+sourceV = float(input('Input supply voltage: '))
 fwdV = int(input('Input forward voltage eg 2: '))
 currentI = float(input('Input LED current in default [20mA] : ')or '20')
 
